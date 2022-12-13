@@ -49,7 +49,7 @@ public class Main {
         for (int day : expenses) {
             sum = sum + day;
         }
-        int average = sum / expenses.length;
+        double average = (sum * 1.0) / expenses.length;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
     }
 
